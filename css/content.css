@@ -57,13 +57,16 @@
   text-decoration: none;
   color: #000;
 }
-/*
-.contacts .responsive-frame iframe {
-  height: 250px;
-}*/
 
 .contacts .responsive-frame {
   padding-bottom: 32.12%;
+}
+
+.phones {
+  width: 60%;
+  margin: 10px 20%;
+  border: 2px dashed #333;
+  font-size: 1em;
 }
 
 @media all and (max-width: 1200px) {
@@ -89,11 +92,21 @@
   .contacts-list {
     margin-top: 0;
   }
+  .phones {
+    width: 100%;
+    margin: 10px 0;
+    font-size: .8em;
+  }
 }
 
 @media all and (max-width: 768px) {
   .bonus .column-1-4 {
     width: 50%;
+  }
+  .phones {
+    width: 80%;
+    margin: 10px 10%;
+    border: 2px dashed #333;
   }
 }
 
@@ -109,6 +122,9 @@
   }
   .footer-text {
     text-align: center;
+  }
+  .phones{
+    font-size: 1em;
   }
 }
 
@@ -180,9 +196,6 @@
   .item {
     width: 50%;
   }
-  .phones{
-    font-size: .8em;
-  }
 }
 
 @media all and (min-width:768px) {
@@ -197,9 +210,6 @@
   }
   .item {
     width: 33.3%;
-  }
-  .phones{
-    font-size: .8em;
   }
 }
 
@@ -216,9 +226,6 @@
   .item {
     width: 50%;
   }
-  .phones{
-    font-size: 1em;
-  }
 }
 
 @media all and (min-width:1200px) {
@@ -234,21 +241,12 @@
   .item {
     width: 50%;
   }
-  .phones{
-    font-size: 1em;
-  }
   .item-img {
     padding: 20px;
   }
   .price {
     padding-top: 20px;
   }
-}
-
-.phones {
-  width: 60%;
-  margin: 10px 20%;
-  border: 2px dashed #333;
 }
 
 .number {

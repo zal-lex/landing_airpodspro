@@ -12,6 +12,31 @@ h2 {
   color: #333;
 }
 
+.button {
+  width: 60%;
+  margin: 10px 20%;
+  border: 2px solid #333;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+@media all and (max-width:976px) {
+  .button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media all and (max-width:768px) {
+  .button {
+    width: 80%;
+    margin: 10px 10%;
+  }
+}
+
 @media all and (min-width:320px) {
   h2 {
     font-size: 1.3em;
@@ -50,17 +75,6 @@ h2 {
 
 figcaption {
   text-align: center;
-}
-
-.button {
-  width: 60%;
-  margin: 10px 20%;
-  border: 2px solid #333;
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  font-weight: bold;
 }
 
 .button:hover {
