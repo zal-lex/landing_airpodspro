@@ -47,7 +47,17 @@
   }
 }
 
+@media all and (max-width:423px) {
+  .header {
+    height: 155px;
+  }
+}
+
 @media all and (max-width:360px) {
   .nav li {
     display: block;
   }
+  .header {
+    height: 225px;
+  }
+}
