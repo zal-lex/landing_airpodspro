@@ -34,7 +34,7 @@
   color: #ee2b2b;
 }
 
-@media (max-width:640px) {
+@media  all and (max-width:640px) {
   .header {
     position: inherit;
     width: auto;
@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width:360px) {
+@media all and (max-width:360px) {
   .nav li {
     display: block;
   }
